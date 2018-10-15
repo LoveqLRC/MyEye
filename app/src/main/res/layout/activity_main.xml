@@ -10,15 +10,13 @@
     <!--TODO test    app:layout_insetEdge="bottom" -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="@dimen/bottom_navigation_height"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_insetEdge="bottom"
-        app:menu="@menu/navigation"/>
+        app:menu="@menu/navigation"
+        style="@style/Widget.MyEye.BottomNav"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,12 +9,14 @@
     </style>
 
 
-    <!--<style name="TextAppearance.MyEye.BottomNavigationView" parent="@style/TextAppearance.">-->
+    <style name="Widget.MyEye" parent="@android:style/Widget" />
 
-    <!--</style>-->
 
-    <!--<style name="TextAppearance.MyEye.BottomNavigationView.Active">-->
-
-    <!--</style>-->
-
+    <style name="Widget.MyEye.BottomNav" parent="@style/Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="itemIconTint">@color/bottom_nav_item</item>
+        <item name="android:theme">@style/ThemeOverlay.MaterialComponents.Dark</item>
+        <item name="itemTextAppearanceActive">@style/TextAppearance.IOSched.BottomNavigationView.Active</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance.IOSched.BottomNavigationView</item>
+        <item name="labelVisibilityMode">selected</item>
+    </style>
 </resources>
