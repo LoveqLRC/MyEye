@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
 
-    <!--TODO test    app:layout_insetEdge="bottom" -->
+    <!--TODO test  app:layout_insetEdge="bottom" -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation"
         android:layout_width="0dp"
@@ -17,6 +17,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_insetEdge="bottom"
         app:menu="@menu/navigation"
-        style="@style/Widget.MyEye.BottomNav"/>
+        style="@style/Widget.MyEye.BottomNavigationView"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

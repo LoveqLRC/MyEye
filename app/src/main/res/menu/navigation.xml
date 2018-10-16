@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/navigation_info"
-        android:icon="@drawable/ic_home"
+        android:icon="@drawable/ic_nav_home"
         android:title="@string/title_home"
         app:contentDescription="@string/title_home" />
 
     <item
         android:id="@+id/navigation_schedule"
-        android:icon="@drawable/ic_home"
+        android:icon="@drawable/ic_nav_follow"
         android:title="@string/title_follow"
         app:contentDescription="@string/title_follow" />
 
     <item
         android:id="@+id/navigation_map"
-        android:icon="@drawable/ic_home"
+        android:icon="@drawable/ic_nav_notification"
         android:title="@string/title_notification"
         app:contentDescription="@string/title_notification" />
 </menu>
