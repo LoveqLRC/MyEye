@@ -33,11 +33,13 @@ dependencies {
 
     // 网络请求库
     implementation rootProject.ext.networkLibs
+
     implementation "com.google.android.material:material:$rootProject.supportLibraryVersion"
     implementation "androidx.constraintlayout:constraintlayout:$rootProject.constraintLayoutVersion"
     implementation "androidx.appcompat:appcompat:$rootProject.supportLibraryVersion"
     implementation "androidx.core:core-ktx:$rootProject.ktxVersion"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$rootProject.kotlinVersion"
+
 
 //    kapt "androidx.room:room-compiler:$rootProject.roomVersion"
 //    kapt "com.github.bumptech.glide:compiler:$rootProject.glideVersion"

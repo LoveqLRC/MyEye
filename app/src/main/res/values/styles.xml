@@ -1,26 +1,21 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="toolbarStyle">@style/Widget.Toolbar</item>
+
     </style>
 
+    <!--Widget-->
 
     <style name="Widget.MyEye" parent="@android:style/Widget" />
 
 
-    <style name="TextAppearance.MyEye.BottomNavigationView" parent="@style/TextAppearance.MaterialComponents.BottomNavigationView.Colored">
-        <item name="android:textColor">@color/bottom_nav_item</item>
-    </style>
-
-    <style name="TextAppearance.MyEye.BottomNavigationView.Active">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">14sp</item>
-    </style>
-
+    <!--BottomNavigationView-->
     <style name="Widget.MyEye.BottomNavigationView" parent="@style/Widget.MaterialComponents.BottomNavigationView.Colored">
         <item name="itemIconTint">@color/bottom_nav_item</item>
         <item name="android:theme">@style/ThemeOverlay.MaterialComponents.Dark</item>
@@ -31,5 +26,32 @@
         </item>
         <item name="labelVisibilityMode">selected</item>
     </style>
+
+    <!--Toolbar-->
+    <style name="Widget.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.MyEye.ToolbarTitle</item>
+        <item name="android:popupTheme">@style/AppTheme.PopupTheme</item>
+    </style>
+
+    <!--TextAppearance  -->
+
+    <!--BottomNavigationView-->
+    <style name="TextAppearance.MyEye.BottomNavigationView" parent="@style/TextAppearance.MaterialComponents.BottomNavigationView.Colored">
+        <item name="android:fontFamily">@font/lobster</item>
+        <item name="android:textColor">@color/bottom_nav_item</item>
+    </style>
+
+    <style name="TextAppearance.MyEye.BottomNavigationView.Active">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!--Toolbar-->
+    <style name="TextAppearance.MyEye.ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/lobster</item>
+
+    </style>
+
+    <style name="AppTheme.PopupTheme" parent="ThemeOverlay.MaterialComponents.Light" />
 
 </resources>
