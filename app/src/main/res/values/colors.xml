@@ -3,4 +3,9 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="indigo">#4768fd</color>
+    <color name="indigo_dark">#3c54fe</color>
+    <color name="white">#fff</color>
+    <color name="status_bar">#202124</color>
 </resources>

@@ -1,12 +1,15 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/indigo</item>
+        <item name="colorAccent">@color/indigo</item>
         <item name="toolbarStyle">@style/Widget.Toolbar</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/status_bar</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:navigationBarColor">@color/indigo_dark</item>
 
     </style>
 
@@ -42,6 +45,7 @@
 
     <!--BottomNavigationView-->
     <style name="TextAppearance.MyEye.BottomNavigationView" parent="@style/TextAppearance.MaterialComponents.BottomNavigationView.Colored">
+        <!--TODO test font -->
         <item name="android:fontFamily">@font/lobster</item>
         <item name="android:textColor">@color/bottom_nav_item</item>
     </style>
