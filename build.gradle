@@ -27,6 +27,7 @@ buildscript {
         supportLibraryVersion = '1.0.0-beta01'
         uiAutomatorVersion = '2.2.0-alpha4'
         workVersion = '1.0.0-alpha09'
+        timberVersion = "4.7.1"
     }
     ext.kotlin_version = '1.2.71'
     repositories {

@@ -20,6 +20,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    dataBinding {
+        enabled true
+    }
 }
 
 dependencies {
@@ -33,6 +36,8 @@ dependencies {
 
     // 网络请求库
     implementation rootProject.ext.networkLibs
+    implementation "com.jakewharton.timber:timber:$rootProject.timberVersion"
+
 
     implementation "com.google.android.material:material:$rootProject.supportLibraryVersion"
     implementation "androidx.constraintlayout:constraintlayout:$rootProject.constraintLayoutVersion"
