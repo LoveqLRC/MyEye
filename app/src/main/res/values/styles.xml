@@ -35,15 +35,7 @@
         <item name="labelVisibilityMode">selected</item>
     </style>
 
-    <!--Toolbar-->
-    <style name="Widget.Toolbar" parent="Widget.AppCompat.Toolbar">
-        <item name="titleTextAppearance">@style/TextAppearance.MyEye.ToolbarTitle</item>
-        <item name="android:popupTheme">@style/AppTheme.PopupTheme</item>
-    </style>
 
-    <!--TextAppearance  -->
-
-    <!--BottomNavigationView-->
     <style name="TextAppearance.MyEye.BottomNavigationView" parent="@style/TextAppearance.MaterialComponents.BottomNavigationView.Colored">
         <!--TODO test font -->
         <item name="android:fontFamily">@font/lobster</item>
@@ -54,6 +46,8 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">14sp</item>
     </style>
+    <!--BottomNavigationView-->
+
 
     <!--Toolbar-->
     <style name="TextAppearance.MyEye.ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
@@ -62,5 +56,21 @@
     </style>
 
     <style name="AppTheme.PopupTheme" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="Widget.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.MyEye.ToolbarTitle</item>
+        <item name="android:popupTheme">@style/AppTheme.PopupTheme</item>
+    </style>
+    <!--Toolbar-->
+
+
+    <!--AppBar-->
+    <style name="Widget.AppBar" parent="@style/Widget.Design.AppBarLayout">
+        <item name="android:popupTheme">@style/AppTheme.PopupTheme</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!--AppBar-->
 
 </resources>

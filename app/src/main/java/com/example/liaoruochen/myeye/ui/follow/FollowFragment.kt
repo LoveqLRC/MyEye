@@ -11,7 +11,7 @@ import com.example.liaoruochen.myeye.ui.MainNavigationFragment
 class FollowFragment : Fragment(), MainNavigationFragment {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        var followBinding = FragmentFollowBinding.inflate(inflater, container, false).apply {
+        val followBinding = FragmentFollowBinding.inflate(inflater, container, false).apply {
             setLifecycleOwner(this@FollowFragment)
         }
         return followBinding.root
